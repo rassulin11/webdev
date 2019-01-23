@@ -1,0 +1,34 @@
+.button {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-decoration: none;
+	color: #484543;
+	background: #fed136;
+	width: 25%;
+	padding: 26px 0;
+	margin: 0 auto;
+	-webkit-border-radius: 3px;
+        border-radius: 3px;
+	font-weight: 700;
+	margin-top: 60px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  		transition-duration: 0.4s;
+	line-height: 13px;
+}
+
+.button:hover {
+	background: #ffc600;
+	color: #fff;
+}
+
+
+@media only screen and (max-width: 940px) {
+	.button {
+		font-size: 14px;
+		padding: 20px 0;
+	}
+
+}
+

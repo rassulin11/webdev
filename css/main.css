@@ -1,0 +1,32 @@
+@import url('core.css');
+@import url('blocks/header.css');
+@import url('blocks/button.css');
+@import url('blocks/services.css');
+@import url('blocks/portfolio.css');
+@import url('blocks/about-us.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic');
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 320px) {
+	
+}

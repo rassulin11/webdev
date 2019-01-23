@@ -1,0 +1,27 @@
+#portfolio {
+	background: #f7f7f7;
+}
+
+.works {
+	margin-top: 64px;
+	display: flex;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+
+.works img {
+	margin: 0 1.8%;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 940px) {
+	.works {
+		margin-top: 30px;
+	}
+
+	.works img {
+		margin: 0 1%;
+	}
+}

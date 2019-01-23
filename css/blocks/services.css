@@ -1,0 +1,36 @@
+.services {
+	margin-top: 65px;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	    -ms-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+
+.services__item {
+	text-align: center;
+}
+
+
+.services__item h3 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	margin-top: 25px;
+	
+}
+
+.services__item p {
+	font-size: 14px;
+	color: #777777;
+	line-height: 1.55em;
+}
+
+@media only screen and (max-width: 940px) {
+	.services {
+		margin-top: 30px;
+	}
+
+}
+
