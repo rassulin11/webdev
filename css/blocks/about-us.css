@@ -56,7 +56,55 @@ h3 span {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 940px) {
 	.about__us {
-	margin-top: 5px;
-	/*display: flex;*/
+		margin-top: 5px;
+	}
+
+	.right__side, .left__side {
+		-webkit-justify-content: center;
+		        justify-content: center;
+		margin: 20px 0;
+	    
+	}
+
+	.title__par {
+		margin: 20px 20px;
+		width: 50%;
+	}
+
+	.about__us p {
+		margin: 10px 5px;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.about__us {
+		margin-top: 0;
+		
+	}
+	.title__par {
+		margin: 10px 10px;
+	}
+	.right__side, .left__side {
+		margin: 10px 0;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+	.left__side {
+  		flex-direction: row;
+		
+	}
+	.right__side, .left__side {
+		margin: 5px 0;
+		}
+	.title__par {
+		margin: 5px 5px;
+	}
+	.left__side h3, .left__side p {
+		text-align: left;
 	}
 }

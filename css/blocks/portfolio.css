@@ -16,12 +16,34 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 950px) {
 	.works {
 		margin-top: 30px;
 	}
 
 	.works img {
-		margin: 0 1%;
+		margin: 0 auto;
+		
 	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 872px) {
+	.works {
+		margin-top: 15px;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+	}
+
+	.works img {
+		  margin: 10px 10px;
+	}
+}
+
+@media only screen and (max-width: 581px) {
+	.works img {
+			  margin: 5px 5px;
+		}
+
 }

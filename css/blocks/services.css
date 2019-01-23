@@ -10,6 +10,7 @@
 
 .services__item {
 	text-align: center;
+	margin: 0 auto;
 }
 
 
@@ -25,12 +26,32 @@
 	font-size: 14px;
 	color: #777777;
 	line-height: 1.55em;
+	padding: 10px;
 }
 
 @media only screen and (max-width: 940px) {
 	.services {
 		margin-top: 30px;
+		-webkit-align-items: center;
+		        align-items: center;
 	}
+}
 
+@media only screen and (max-width: 768px) {
+	.services__item h3 {
+		margin-bottom: 5px;
+		margin-top: 15px;
+		
+	}
+	.services {
+		margin-top: 15px;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+	}
+	.services__item p {
+		margin: 5px;
+		padding: 10px 50px;
+	}
 }
 

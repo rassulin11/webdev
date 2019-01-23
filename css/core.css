@@ -17,7 +17,7 @@ div {
 }
 
 .wrap {
-	width: 940px;
+	max-width: 940px;
 	padding: 0 15px;
 	margin: 0 auto;	
 }
@@ -58,7 +58,29 @@ section {
 	}
 
 	.wrap {
-	padding: 0;
-}
+		padding: 0;
+	}
 	
+}
+
+@media only screen and (max-width: 768px) {
+
+	.title {
+		padding-top: 30px;
+	}
+
+	section {
+		padding-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	.title {
+		padding-top: 15px;
+	}
+
+	section {
+		padding-bottom: 15px;
+	}
 }
